@@ -101,7 +101,7 @@ public class JobData {
         for (HashMap<String, String> row : allJobs) {
             //if(value to be searched)
                 for (HashMap.Entry<String,String> aJob : row.entrySet()) {
-                   if(aJob.getValue().toUpperCase().contains(value) && !aJob.equals(row)){
+                   if(aJob.getValue().contains(value) && !aJob.equals(row)){
                     jobs.add(row);
 
                 }
