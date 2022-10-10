@@ -121,7 +121,7 @@ public class TechJobs {
     private static void printJobs(ArrayList<HashMap<String, String>> someJobs) {
 
         if(someJobs.size() == 0) {
-            System.out.println("No Results");
+            System.out.print("No Results");
             return;
         } else{
             for(int i = 0; i < someJobs.size(); i++){
